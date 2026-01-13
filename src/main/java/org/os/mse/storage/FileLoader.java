@@ -22,7 +22,7 @@ public class FileLoader {
         }
         for(File file : files){
             String content = Files.readString(file.toPath());
-            documents.add(new Document(file.getPath(), content));
+            documents.add(new Document(file.getName(), content));
         }
 
         return documents;
