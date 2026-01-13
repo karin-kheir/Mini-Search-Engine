@@ -1,20 +1,20 @@
 package org.os.mse.model;
 
 public class Document {
-    String path;
+    String name;
     String content;
 
-    public Document(String path, String content){
-        this.path = path;
+    public Document(String name, String content){
+        this.name = name;
         this.content = content;
     }
 
-    public String getPath() {
-        return path;
+    public String getName() {
+        return name;
     }
 
-    public void setPath(String path) {
-        this.path = path;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getContent() {
@@ -28,7 +28,7 @@ public class Document {
     @Override
     public String toString() {
         return "Document{" +
-                "path='" + path + '\'' +
+                "name='" + name + '\'' +
                 ", contentLength=" + content.length() +
                 '}';
     }
