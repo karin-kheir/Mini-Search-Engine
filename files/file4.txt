@@ -1,0 +1,5 @@
+Machine learning is a branch of artificial intelligence that focuses on building systems that can learn from data and improve performance over time without being explicitly programmed. Machine learning algorithms can be broadly categorized into supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised learning involves training models on labeled datasets, such as predicting house prices or classifying emails as spam. Unsupervised learning discovers hidden patterns in data without labels, like clustering customers by purchase behavior. Reinforcement learning involves agents learning to make sequences of decisions by receiving rewards or penalties.
+
+Popular machine learning frameworks include TensorFlow, PyTorch, and Scikit-learn. Python is the dominant language for machine learning due to its extensive library support. Feature engineering, model evaluation, and hyperparameter tuning are crucial steps in building effective models. Machine learning is widely used in applications such as recommendation systems, fraud detection, natural language processing, and computer vision.
